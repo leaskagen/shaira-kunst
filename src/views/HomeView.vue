@@ -64,4 +64,7 @@ h2 {
   border: solid 2px #2c3e50;
   border-radius: 2.5px;
 }
+.art-link h2:hover {
+  background-color: #f5f5f5;
+}
 </style>

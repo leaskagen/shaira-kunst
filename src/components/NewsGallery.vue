@@ -35,9 +35,10 @@ const newImages = [
 </script>
 <style scoped>
 .news-gallery {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 300px);
-grid-template-rows: repeat(2, 300px);
+    grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     /*
@@ -63,18 +64,6 @@ grid-template-rows: repeat(2, 300px);
     height: 300px;
 }
 
-/*
-.news-gallery__item:not(#1){
-    width: 300px;
-    height: 300px;
-}
-
-.news-gallery__item:where(#1){
-    width: 600px !important;
-    height: 600px !important;
-}
-
-*/
 .news-gallery__item a {
     display: none;
     /*

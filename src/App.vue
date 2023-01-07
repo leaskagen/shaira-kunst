@@ -136,6 +136,7 @@ nav {
   padding-top: 5em;
   background-color: #f5f5f5;
   width: 275px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 
 nav a {
